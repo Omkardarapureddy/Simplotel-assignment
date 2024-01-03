@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+}
+
+.nav {
+  width: 100vw;
+  height: 50px;
+  background-color: #ff7171;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.menu-list {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-A {
+  background-image: linear-gradient(to right, #fff5af, #ffd6cd);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.heading {
+  font-size: 18px;
+  font-family: Roboto;
+  align-self: start;
+}
+
+.paragraph {
+  font-size: 12px;
+  font-family: Roboto;
+  align-self: start;
+}
+
+.button {
+  align-self: start;
+  color: #ffffff;
+  border: 0;
+  padding: 5px;
+  background-color: #ff7171;
+}
+.section-b {
+  background-image: linear-gradient(to right, #fff5af, #ffd6cd);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+  border: 10px;
+}
+
+.section-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img1 {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+
+.img2 {
+  height: 320px;
+  width: 250px;
+  padding: 10px;
+}
+
+.section-e {
+  background-color: #ff7171;
+  height: 150px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-1 {
+  font-size: 8px;
+}
+
+.heading-2 {
+  font-size: 15px;
+}
+.arrow {
+  height: 10px;
+  width: 10px;
+  margin-left: 3px;
+}
+
+.main-img {
+  width: 50vw;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
